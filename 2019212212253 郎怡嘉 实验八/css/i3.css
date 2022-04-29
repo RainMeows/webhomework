@@ -1,0 +1,40 @@
+.main .item:nth-child(1) {
+    display: none;
+}
+
+.item {
+    position: relative;
+    height: 50px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 10px auto;
+}
+
+.item .u-left {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    background-color: khaki;
+    color: black;
+}
+
+.item .u-right {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    background-color: burlywood;
+    color: coral;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    margin-left: 60vw;
+}

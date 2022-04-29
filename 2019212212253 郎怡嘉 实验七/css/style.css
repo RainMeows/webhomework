@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+section div {
+    font-size: 14px;
+}
+
+header>.m-tl>.m-tab>span {
+    background: #006699;
+    color: #fff;
+    padding: 4px 10px 4px;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+header>.m-tl>.m-tip>span {
+    background: #ff6600;
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header>.m-tl>.m-fun>span {
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 2px 4px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+header>.m-tl {
+    border-bottom: 5px solid #006699;
+    width: 1012px;
+}
+
+.m-tl .ui-grid-2 {
+    margin-bottom: 0;
+    padding-bottom: -5px;
+}
+
+.m-tl .ui-grid-21 {
+    margin-bottom: 0;
+    padding-bottom: -5px;
+}
+
+.m-fun.ui-grid-2 {
+    text-align: right;
+}
+
+header>.m-bd {
+    width: 1000px;
+    font-size: 14px;
+    color: rgb(232, 3, 3);
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* 缩小字体 */
+
+.m-bd .m-small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+/* 红色改为灰色 */
+
+.m-bd .m-co {
+    color: rgb(86, 86, 86);
+}
+
+.m-bd .m-col {
+    color: black;
+}
+
+.m-bd>.ui-grid-5,
+.ui-grid-20,
+.ui-grid-4,
+.ui-grid-17 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.m-ft {
+    width: 1010px;
+    height: auto;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 254, 230);
+}
+
+.m-ft .m-tel {
+    text-align: right;
+    font-size: 14px;
+}
+
+.b-tl {
+    width: 1012px;
+    height: 21px;
+    background-color: #bfd5e0;
+    font-size: 14px;
+    text-align: center;
+    color: #405488;
+    margin-top: -55px;
+}
+
+.b-tl>div {
+    border-left: 1px solid white;
+}
+
+.b-tt {
+    width: 1012px;
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+.b-tt .ui-grid-9 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.b-tt .ui-grid-11 {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.b-ct {
+    width: 1000px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 13px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.b-ct .ui-grid-3 {
+    text-align: left;
+}
+
+
+/* .b-ct .b-next {
+    display: block;
+    margin-left: 20px;
+} */
+
+.b-ct .b-nn {
+    /* position: absolute;
+    margin-top: -30px;
+    margin-left: 170px; */
+    color: #006699;
+}
+
+
+/* .b-ct>div {
+    border-left: 1px solid grey;
+} */
+
+.b-ct .ui-grid-2 {
+    margin-top: 10px;
+}
+
+section {
+    border: 1px solid #ccc;
+    width: 1011px;
+}
